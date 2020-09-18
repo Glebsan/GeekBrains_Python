@@ -5,7 +5,7 @@ class Clothes(ABC):
     def __init__(self, name):
         self.name = name
 
-    @abstractclassmethod
+    @abstractclassmethod #PyCharm зачеркивает @abstractclassmethod и говорит что он устарел с верссии Питона 3.3. А что использовать вместо него?
     def cloth_consumption(self):
         pass
 
