@@ -36,5 +36,6 @@ coat = Coat('пальто', 6.5)
 jacket = Jacket('костюм', 2)
 print(coat.cloth_consumption)
 print(jacket.cloth_consumption)
-# print(jacket.cloth_consaption)
-# print(total.total_consaption)
+
+# была идея реализовать класс Total_cloth_consuption метод которого бы брал расход с обьектов классов Coat и Jacket и суммировал их. Так вообще возможно сделать?
+# Вообщем подскажите пожалуйста как можно сделать подсчет общего расхода отдельным классом ссылаясь на дугие классы. Как на вебинаре у меня не получилось(
